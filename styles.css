@@ -20,6 +20,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+li {
+  margin-left: 2rem;
+}
+
 /* Global Classes */
 .container {
   width: 600px;
@@ -126,5 +130,29 @@ header h1 {
 
 .font__name {
   font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+/* Text Styles */
+.text-style {
+  line-height: 1.5rem;
+}
+
+.text-style--h1 h1 {
+  font-family: 'Medula One', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.text-style--h2 h2 {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.text-style--p p {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+  font-size: 16px;
   font-weight: 400;
 }
