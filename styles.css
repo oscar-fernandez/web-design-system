@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Global Classes */
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Colors Section */
+.color {
+  height: 200px;
+  width: 250px;
+  box-shadow: 2px 7px 20px -1px rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.color p {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.color__grid {
+  display: grid;
+  width: 550px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+  margin: 0 auto;
+}
+
+.color--1 {
+  background-color: #141617;
+  color: #ffffff;
+}
+
+.color--2 {
+  background-color: #43586a;
+  color: #ffffff;
+}
+
+.color--3 {
+  background-color: #fefefe;
+}
+
+.color--4 {
+  background-color: #aeaeae;
+}
+
+/* Fonts Section */
+.font {
+  margin-left: 1rem;
+}
